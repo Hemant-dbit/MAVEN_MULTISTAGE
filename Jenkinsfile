@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository...'
-                git branch: 'main',  url: 'https://github.com/Hemant-dbit/MAVEN_MULTISTAGE.git', branch: 'main'
+                git branch: 'main',  url: 'https://github.com/Hemant-dbit/MAVEN_MULTISTAGE.git'
             }
         }
 
